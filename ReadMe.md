@@ -1,3 +1,11 @@
+## Install and Execution:
+```bash
+git clone https://github.com/0xIslamTaha/google_selenium_java.git
+cd google_selenium_java.git
+mvn install
+mvn test
+```
+
 ## Test results:
 ```bash
 Results :
@@ -18,3 +26,8 @@ Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
 [INFO] Finished at: 2019-09-04T16:25:47+02:00
 [INFO] ------------------------------------------------------------------------
 ```
+
+## TODO:
+- Update readme
+- Add logs
+- Integrate with TravisCI
