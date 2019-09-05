@@ -100,7 +100,6 @@ public class BaseSelenium {
     }
 
     public void click(String element){
-        //waitUntilElementVisible(element);
         WebElement web_element = findElement(element).get(0);
         web_element.click();
     }
